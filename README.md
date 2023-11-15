@@ -19,29 +19,29 @@ To extract meaningful insights from the EEG recordings, the dataset underwent th
 
 ### Models
 
-##### K-NN Model
-The initial model employed a K-Nearest Neighbors (K-NN) classification, achieving an accuracy of 43%. Further refinement and exploration were conducted based on the insights gained from this model.
+K-NN Model:
+- The initial model employed a K-Nearest Neighbors (K-NN) classification, achieving an accuracy of 43%. Further refinement and exploration were conducted based on the insights gained from this model.
 
-###### Principal Component Analysis (PCA)
-Principal Component Analysis revealed that the first two components are the most relevant in capturing variance within the dataset. This insight influenced subsequent model development.
+Principal Component Analysis (PCA)
+- Principal Component Analysis revealed that the first two components are the most relevant in capturing variance within the dataset. This insight influenced subsequent model development.
 
-##### XGBoost Model
-The final model utilized XGBoost, incorporating the dimensionality reduction from PCA. This model yielded an accuracy of 70%, showcasing improvements over the initial K-NN model.
+XGBoost Model
+- The final model utilized XGBoost, incorporating the dimensionality reduction from PCA. This model yielded an accuracy of 70%, showcasing improvements over the initial K-NN model.
 
 ### Business Recommendations
 The developed model has practical applications in the following areas:
 
-##### Mental State Classification:
-The model can effectively classify mental states, providing valuable insights into distinct brain activity patterns associated with concentration, relaxation, and neutrality.
+Mental State Classification:
+- The model can effectively classify mental states, providing valuable insights into distinct brain activity patterns associated with concentration, relaxation, and neutrality.
 
-##### Neuromotor Interfaces:
-As a prototype, this model can pave the way for the development of neuromotor interfaces. These interfaces can interpret brain imaging data, facilitating advancements in brain-computer interfaces and neuroprosthetics.
+Neuromotor Interfaces:
+- As a prototype, this model can pave the way for the development of neuromotor interfaces. These interfaces can interpret brain imaging data, facilitating advancements in brain-computer interfaces and neuroprosthetics.
 
-##### Collaboration with Biomedical Researchers:
-Collaborate with biomedical researchers to leverage the model for neurological disorder studies, potentially advancing medical responses.
+Collaboration with Biomedical Researchers:
+- Collaborate with biomedical researchers to leverage the model for neurological disorder studies, potentially advancing medical responses.
 
-##### Personalized Experiences:
-Explore applications in personalized experiences, tailoring interfaces or services based on real-time mental states inferred from EEG signals.
+Personalized Experiences:
+- Explore applications in personalized experiences, tailoring interfaces or services based on real-time mental states inferred from EEG signals.
 
 ### Future Data Improvements
 To enhance the model's capabilities, consider the following improvements:
