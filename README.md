@@ -16,19 +16,29 @@ To extract meaningful insights from the EEG recordings, the dataset underwent th
 ##### Segmentation:
 - Each EEG recording was split into 100 segments, allowing for a granular analysis of mental states.
 
+![segment1](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/segment1.png)
+
 ##### Feature Extraction:
 - Features such as minimum, maximum, mean, and standard deviation were extracted from each segment. Frequency information was obtained using a Fast Fourier Transform (FFT).
+
+![fft](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/fft.png)
 
 ### Models
 
 K-NN Model:
 - The initial model employed a K-Nearest Neighbors (K-NN) classification, achieving an accuracy of 43%. Further refinement and exploration were conducted based on the insights gained from this model.
 
+![confusion1](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/confusion1.png)
+
 Principal Component Analysis (PCA)
 - Principal Component Analysis revealed that the first two components are the most relevant in capturing variance within the dataset. This insight influenced subsequent model development.
 
+![pca](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/pca.png)
+
 XGBoost Model
 - The final model utilized XGBoost, incorporating the dimensionality reduction from PCA. This model yielded an accuracy of 70%, showcasing improvements over the initial K-NN model.
+
+![confusion2](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/confusion2.png)
 
 ### Business Recommendations
 The developed model has practical applications in the following areas:
