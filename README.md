@@ -8,6 +8,8 @@ This project focuses on classifying mental states (concentrated, relaxed, and ne
 - Electrodes: 5
 - EEG Sessions: 24
 
+![eeg](https://github.com/jacobserfaty/EEG_signal_detection/blob/main/EEG_images/eeg.png)
+
 ### Data Preprocessing
 To extract meaningful insights from the EEG recordings, the dataset underwent the following preprocessing steps:
 
